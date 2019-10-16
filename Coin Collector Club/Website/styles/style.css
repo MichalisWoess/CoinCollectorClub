@@ -37,7 +37,7 @@ body{
     color: white;
 }
   
-.header-right {
+.header-buttons {
     float: right;
 }
   
@@ -47,13 +47,13 @@ body{
       display: block;
       text-align: left;
     }
-.header-right {
+.header-buttons {
       float: none;
     }
 }
 
-.raise:hover,
-.raise:focus {
+.header-buttons:hover,
+.header-buttons:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   transform: translateY(-0.25em);
 }
