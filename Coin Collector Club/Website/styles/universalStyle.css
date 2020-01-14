@@ -58,6 +58,50 @@ body{
     padding-top: 12px;
 }
 
+.slider-container{
+    width: 800px;
+    height:400px;
+    margin-top:200px;
+    margin-left:5%;
+    margin-right: 95%;
+    overflow:hidden;
+    text-align: center;
+}
+.image-container{
+    width: 2400px;
+    height: 400px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+}
+
+.slider-image{
+    float: left;
+    margin:0px;
+    padding: 0px;
+}
+.button-container{
+    top: -20px;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width:10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#slider-image-1:target ~ .image-container{
+    left: 0px;
+}
+#slider-image-2:target ~ .image-container{
+    left: -800px;
+}
+#slider-image-3:target ~ .image-container{
+    left: -1600px;
+}
 
 @media screen and (max-width: 500px) {
 .header a {
