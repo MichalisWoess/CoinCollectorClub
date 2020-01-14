@@ -9,8 +9,9 @@ body{
 .logo{
     height: 49px;
     width: auto;
-
     vertical-align: middle;
+    float: left;
+    padding: 5px;
 }
 
 /* Header */
@@ -43,14 +44,21 @@ body{
 }
   
 .header a.active {
-    background-color: dodgerblue;
+    background-color: #E5474C;
     color: white;
 }
   
 .header-buttons {
     float: right;
 }
-  
+#CompanyName{
+    color: #E01F25;
+    float: left;
+    margin: 0;
+    padding-top: 12px;
+}
+
+
 @media screen and (max-width: 500px) {
 .header a {
       float: none;
