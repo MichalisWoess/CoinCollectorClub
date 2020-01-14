@@ -1,0 +1,17 @@
+@import "universalStyle.css";
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+
+#jantschgeBild{
+    float: left;
+    margin-left: 100px;
+    margin-right: 15px;
+}
