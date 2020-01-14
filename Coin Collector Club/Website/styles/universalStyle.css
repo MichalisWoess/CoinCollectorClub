@@ -1,7 +1,19 @@
+html{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+
 body{
     background-color: #1e1e1e;
 }
 
+.logo{
+    height: 49px;
+    width: auto;
+
+    vertical-align: middle;
+}
+
+/* Header */
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -19,8 +31,10 @@ body{
 }
   
 .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
+    height: 49px;
+    width: auto;
+
+    vertical-align: middle;
 }
   
 .header a:hover {
@@ -51,5 +65,5 @@ body{
 .header-buttons:hover,
 .header-buttons:focus {
   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
 }
+/* Header */

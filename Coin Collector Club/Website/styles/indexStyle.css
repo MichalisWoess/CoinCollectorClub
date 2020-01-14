@@ -1,0 +1,8 @@
+@import "universalStyle.css";
+
+.logo{
+    height: 49px;
+    width: auto;
+
+    vertical-align: middle;
+}
