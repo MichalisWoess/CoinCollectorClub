@@ -1,1 +1,7 @@
 @import "universalStyle.css";
+
+.index-coinbutton{
+    float:right;
+    margin-top: 150px;
+    margin-right: 150px;
+}
